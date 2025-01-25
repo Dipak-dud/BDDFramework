@@ -27,7 +27,7 @@ public class GoogleSearchTest {
 
         // Find the search box, enter text, and submit
         WebElement searchBox = driver.findElement(By.name("q"));
-        searchBox.sendKeys("Selenium WebDriver Test");
+        searchBox.sendKeys("Selenium WebDriver");
         searchBox.submit();
 
         // Wait for results and verify the page title
